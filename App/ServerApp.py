@@ -21,7 +21,7 @@ ns = api.namespace('v1',
 @ns.doc(params={'string': 'String to validate if pyramid structure exists !'})
 class PyramidCheck(Resource):           
     def get(self,string):
-        counter = collections.Counter(string)
+        counter = collections.Counter(string.strip())
         isPyramid = True
         seen = set()
         for char,count in counter.items():
