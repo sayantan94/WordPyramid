@@ -36,6 +36,7 @@ class PyramidCheck(Resource):
 if __name__ == '__main__':
     arg = sys.argv
     #print(1111,port)
+    port = 5000
     if len(arg) > 1:
         port = arg[-1]
     app.run(port = port, debug=True)  
