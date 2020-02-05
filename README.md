@@ -5,8 +5,8 @@ WebService to check if the word is pyramid or not
 
 ### Installation.
 1. Install the required pip files from the requirement.txt 
-execute the following command : pip install -r requirement.txt 
+<br>Execute the following command : pip install -r requirement.txt 
 
 ### Run the server 
 python App/ServerApp.py <port_number : Optional Argument>
-Example : python App/ServerApp.py 4000
+<b>Example : python App/ServerApp.py 4000
